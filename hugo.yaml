@@ -1,0 +1,29 @@
+baseURL: "https://hnmg.github.io/henrymonma-blog/"
+languageCode: pt-br
+title: "Meu Blog"
+theme: PaperMod
+
+pagination:
+  pagerSize: 10   # com mais de 10 posts, surge a /page/2/ e o « » no rodapé
+
+outputs:
+  home: [HTML, RSS, JSON]   # o JSON é o índice usado pela busca
+
+taxonomies:
+  tag: tags   # gera /tags/ e uma página por tag
+
+menu:
+  main:
+    - { identifier: posts,    name: Posts,   url: /posts/,    weight: 10 }
+    - { identifier: archives, name: Arquivo, url: /archives/, weight: 20 }
+    - { identifier: search,   name: Busca,   url: /search/,   weight: 30 }
+    - { identifier: tags,     name: Tags,    url: /tags/,     weight: 40 }
+    - { identifier: faq,      name: FAQ,     url: /faq/,      weight: 50 }
+
+params:
+  author: "Henry"
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  homeInfoParams:
+    Title: "Olá, eu sou o Henry"
+    Content: "Documento aqui o que vou aprendendo sobre tecnologia."
