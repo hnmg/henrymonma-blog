@@ -24,6 +24,8 @@ params:
   author: "Henry"
   ShowReadingTime: true
   ShowPostNavLinks: true
+  ShowToc: true
+  TocOpen: false
   homeInfoParams:
     Title: "Olá, eu sou o Henry"
     Content: "Documento aqui o que vou aprendendo sobre tecnologia."
